@@ -1,8 +1,8 @@
 import googlemaps
 from datetime import datetime
 import json
-
-gmaps = googlemaps.Client(key='AIzaSyCXZH6DX2M-MDwvemaYr6xxhR2QbKcv8AY')
+#Will get API key when needed.
+gmaps = googlemaps.Client(key='')
 # Geocoding an address
 geocode_result = gmaps.geocode('476 5th Ave, New York, NY 10018')
 location = geocode_result[0]['geometry']['location']
